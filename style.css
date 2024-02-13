@@ -1,0 +1,314 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: black;
+}
+
+.head {
+    background-color: rgb(238, 90, 27);
+    width: 100%;
+    height: 500px;
+}
+
+
+.img {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+}
+
+.image1 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.image {
+    border-radius: 20px;
+}
+
+.nav {
+    color: white;
+    position: absolute;
+    left: 30%;
+}
+
+.nav ul li a {
+    color: white;
+    transition: 0.3s ease-in-out;
+
+}
+
+.nav ul li a:hover {
+    color: rgba(128, 128, 128, 0.471);
+    transition: 0.3s ease-in-out;
+}
+
+.alex {
+    display: flex;
+    gap: 15px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 30px;
+    width: 200px;
+}
+
+.icon {
+    font-size: 70px;
+    padding-top: 50px;
+}
+
+.info {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+.socolo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+.second {
+    color: white;
+    position: absolute;
+    display: flex;
+    left: 80%;
+    top: 30%;
+    gap: 15px;
+    transform: rotate(90deg);
+    
+}
+
+.icon1 {
+    font-size: 70px;
+    transform: rotate(90deg);
+
+}
+
+.alexx {
+    padding-top: 10px;
+}
+
+.last {
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 82%;
+}
+
+.secondsection {
+    width: 100%;
+    height: 800px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 600px;
+    height: 600px;
+    background-color: #ED4801;
+    border-radius: 20px;
+    box-shadow: 0 0 150px 40px rgb(55, 54, 54);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.inside {
+    width: 500px;
+    height: 500px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.inside1 {
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+    text-align: start;
+    align-items: flex-start;
+    gap: 30px;
+    padding-left: 40px;
+    /* padding-top: 20px; */
+
+}
+
+.profile {
+    font-size: 30px;
+    padding-top: 7px;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.littlepic {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.onthepic {
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100px;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+.both {
+    position: relative;
+}
+
+.icons {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    gap: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.righticon {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    align-items: end;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.allicons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    gap: 60px;
+    color: white;
+    font-weight: lighter;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.imgg {
+    padding-top: 30px;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgba(187, 187, 187, 0.57);
+    transition: 0.3s ease-in-out;
+
+}
+
+.spann {
+    display: flex;
+    gap: 100px;
+    padding-top: 40px;
+}
+
+.cloud {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.whole {
+    color: white;
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 120px;
+}
+
+.linee {
+    width: 1px;
+    height: 50px;
+    background-color: white;
+}
+
+.image12 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

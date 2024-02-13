@@ -1,0 +1,29 @@
+@media screen and (width <=1300px) {
+    .image {
+        display: none;
+    }
+
+    .second {
+        display: none;
+    }
+
+    .last {
+        display: none;
+    }
+
+    .image12 {
+        margin-top: 500px;
+    }
+
+}
+
+@media screen and (width <=1200px) {
+
+    .inside {
+        width: 400px;
+        height: 500px;
+    }
+
+
+
+}
